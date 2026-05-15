@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Status | GURU AI & Research Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="scrolled">
+        <div class="container">
+            <a href="index.html" class="logo">GU<span>RU</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="lab.html">The Lab</a></li>
+                <li><a href="procurement.html">Procurement</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="subpage-hero">
+        <div class="container">
+            <div class="reveal active">
+                <span class="hero-tagline">Lab Health Monitoring</span>
+                <h1>System <span>Status</span></h1>
+                <p style="color: var(--text-secondary); max-width: 700px; margin: 0 auto;">
+                    Real-time operational status for Guru AI Lab-as-a-Service (AILaaS) and on-premise institutional clusters.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Status Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="glass reveal" style="padding: 30px; margin-bottom: 40px; display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 20px;">
+                    <div class="status-dot" style="width: 15px; height: 15px;"></div>
+                    <h2 style="font-size: 1.5rem; margin: 0;">All Systems Operational</h2>
+                </div>
+                <span style="color: var(--text-secondary); font-size: 0.9rem;">Uptime: 99.98%</span>
+            </div>
+
+            <div class="status-grid reveal">
+                <div class="glass status-card">
+                    <div class="status-label">
+                        <i class="fa-solid fa-server" style="color: var(--accent-blue);"></i>
+                        <div>
+                            <h4 style="margin: 0;">Global Cloud Sandbox</h4>
+                            <p style="font-size: 0.75rem; color: var(--text-secondary); margin: 0;">AILaaS Testing Environments</p>
+                        </div>
+                    </div>
+                    <span class="status-indicator status-online">Operational</span>
+                </div>
+
+                <div class="glass status-card">
+                    <div class="status-label">
+                        <i class="fa-solid fa-microchip" style="color: var(--accent-blue);"></i>
+                        <div>
+                            <h4 style="margin: 0;">H100 Research Cluster</h4>
+                            <p style="font-size: 0.75rem; color: var(--text-secondary); margin: 0;">Multi-node GPU Training</p>
+                        </div>
+                    </div>
+                    <span class="status-indicator status-online">Operational</span>
+                </div>
+
+                <div class="glass status-card">
+                    <div class="status-label">
+                        <i class="fa-solid fa-database" style="color: var(--accent-blue);"></i>
+                        <div>
+                            <h4 style="margin: 0;">Academic Data Pipelines</h4>
+                            <p style="font-size: 0.75rem; color: var(--text-secondary); margin: 0;">Secure Data Structuring</p>
+                        </div>
+                    </div>
+                    <span class="status-indicator status-online">Operational</span>
+                </div>
+
+                <div class="glass status-card">
+                    <div class="status-label">
+                        <i class="fa-solid fa-comment-dots" style="color: var(--accent-blue);"></i>
+                        <div>
+                            <h4 style="margin: 0;">Campus AI Agent API</h4>
+                            <p style="font-size: 0.75rem; color: var(--text-secondary); margin: 0;">Chatbot & Helper API</p>
+                        </div>
+                    </div>
+                    <span class="status-indicator status-online">Operational</span>
+                </div>
+            </div>
+
+            <!-- Incident History -->
+            <div class="reveal" style="margin-top: 80px;">
+                <h3 style="margin-bottom: 30px;">Incident History</h3>
+                <div class="glass" style="padding: 30px;">
+                    <div style="display: flex; gap: 30px; padding-bottom: 20px; border-bottom: 1px solid var(--glass-border); margin-bottom: 20px;">
+                        <span style="color: var(--text-secondary); font-weight: 600;">May 14, 2026</span>
+                        <div>
+                            <h5 style="margin: 0 0 5px 0;">Scheduled Maintenance - Cluster Alpha</h5>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0;">Hardware lifecycle thermal cleaning and component upgrades completed successfully.</p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 30px;">
+                        <span style="color: var(--text-secondary); font-weight: 600;">May 10, 2026</span>
+                        <div>
+                            <h5 style="margin: 0 0 5px 0;">No incidents reported</h5>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); margin: 0;">All systems maintained 100% uptime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">GU<span>RU</span></a>
+                    <p>The Advanced AI & Research Lab. Bridging the gap between theory and high-performance reality.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Solutions</h4>
+                    <ul>
+                        <li><a href="services.html">AI Labs</a></li>
+                        <li><a href="lab.html">HPC Rigs</a></li>
+                        <li><a href="procurement.html">Hardware Sales</a></li>
+                        <li><a href="services.html">AILaaS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="services.html">AI Training</a></li>
+                        <li><a href="research.html">Research Journal</a></li>
+                        <li><a href="services.html">Grant Support</a></li>
+                        <li><a href="contact.html">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:info@guru-lab.com">info@guru-lab.com</a></li>
+                        <li><a href="contact.html">Reach Out</a></li>
+                        <li><a href="#">Twitter / X</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Guru Advanced IT & AI Research Lab. All rights reserved.</p>
+                <a href="status.html" style="color: var(--text-secondary); font-size: 0.8rem;"><i class="fa-solid fa-signal" style="color: #00ff88; margin-right: 5px;"></i> System Status</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
